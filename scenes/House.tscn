@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://b02k4gkmkxyc2"]
+
+[ext_resource type="PackedScene" uid="uid://bs3ynr61an3iw" path="res://school_mesh.tscn" id="3_r2usd"]
+[ext_resource type="PackedScene" uid="uid://du82lduwefmhr" path="res://scenes/Player.tscn" id="10"]
+[ext_resource type="PackedScene" uid="uid://bt7f5k7nxydj0" path="res://menu.tscn" id="12_jilip"]
+
+[sub_resource type="LightmapGIData" id="15"]
+
+[node name="main" type="Node3D"]
+
+[node name="BakedLightmap" type="LightmapGI" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.555485, 1.04064, 15.3833)
+light_data = SubResource("15")
+
+[node name="Player" parent="." instance=ExtResource("10")]
+transform = Transform3D(2.08819, 0, 0, 0, 1.83832, 0, 0, 0, 1.93743, 0.225193, 2.11002, 3.408)
+
+[node name="Menu" parent="." instance=ExtResource("12_jilip")]
+
+[node name="ButtonRequirement" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Press 'F' for turn on/off flashlight
+Press 'ESC' to open menu"
+
+[node name="SchoolMesh" parent="." instance=ExtResource("3_r2usd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.81126, 0.0245814, 4.17562)
