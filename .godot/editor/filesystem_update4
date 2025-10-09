@@ -1,5 +1,11 @@
 res://default_env.tres
+res://opening_scene.tscn
 res://scenes/House.tscn
 res://scenes/Player.tscn
 res://menu.tscn
 res://school_mesh.tscn
+res://opening_scene.gd
+res://story_scene.tscn
+res://story.gd
+res://label.gd
+res://story_scene.gd
