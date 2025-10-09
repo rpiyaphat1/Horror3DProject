@@ -1,0 +1,55 @@
+[gd_scene load_steps=5 format=3 uid="uid://dt2arcmbtv8hd"]
+
+[ext_resource type="Script" uid="uid://docwlyyolllth" path="res://scripts/picklock_minigame.gd" id="1_ecsk2"]
+[ext_resource type="Texture2D" uid="uid://dw1aracl02wu2" path="res://assets/images/Circle.png" id="1_oby1b"]
+[ext_resource type="Texture2D" uid="uid://o1o74bw4g8qx" path="res://assets/images/Success_area.png" id="2_ecsk2"]
+[ext_resource type="Texture2D" uid="uid://bjen3g7tq653r" path="res://assets/images/needle.png" id="3_edyab"]
+
+[node name="PicklockMinigame" type="Control"]
+layout_mode = 3
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -6.0
+offset_top = 45.0
+offset_right = -6.0
+offset_bottom = 45.0
+grow_horizontal = 2
+pivot_offset = Vector2(-2, 498)
+script = ExtResource("1_ecsk2")
+needle_zero_deg = 270.0
+zone_start_edge_deg = 180.0
+
+[node name="CircleBG" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -382.0
+offset_top = 100.0
+offset_right = 370.0
+offset_bottom = 852.0
+pivot_offset = Vector2(384, 395)
+texture = ExtResource("1_oby1b")
+
+[node name="SuccessZone" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 61.0
+offset_right = 418.0
+offset_bottom = 493.0
+pivot_offset = Vector2(-2, 426)
+texture = ExtResource("2_ecsk2")
+
+[node name="Needle" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -328.0
+offset_top = 498.0
+offset_right = -8.0
+offset_bottom = 827.0
+pivot_offset = Vector2(319, -2)
+texture = ExtResource("3_edyab")
+
+[node name="ResultLabel" type="Label" parent="."]
+layout_mode = 1
+offset_left = -864.0
+offset_top = 6.0
+offset_right = -506.0
+offset_bottom = 116.0

@@ -1,21 +1,17 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1759981047
+::res://::1759995080
 character-q.glb::PackedScene/PackedScene::3996838614737208648::1759847582::1759847834::1::::<><><>0<>0<>4b0cd9868d6e138a98e463efb2f48cb1<>res://.godot/imported/character-q.glb-ab3e7819c02c77a1bac30da5219f7459.scn::uid://bjyg5mfu4ulua::::res://Textures/texture-q.png
-default_env.tres::Environment::5278782413639604214::1759981047::0::1::::<><><>0<>0<><>::
+default_env.tres::Environment::5278782413639604214::1759995080::0::1::::<><><>0<>0<><>::
 export_presets.cfg::TextFile/TextFile::-1::1759847583::0::1::::<><><>0<>0<><>::
-hakidame.TTF::FontFile::8636946006560775966::1759940785::1759940821::1::::<><><>0<>0<>9d11c0022ab1bdd3e54491d29f9a1eb8<>res://.godot/imported/hakidame.TTF-bff6c849d40c4059664bf6fcecc1f688.fontdata::
+hakidame.TTF::FontFile/FontFile::8636946006560775966::1759940785::1759940821::1::::<><><>0<>0<>9d11c0022ab1bdd3e54491d29f9a1eb8<>res://.godot/imported/hakidame.TTF-bff6c849d40c4059664bf6fcecc1f688.fontdata::
 House_env.tres::Environment/Environment::-1::1759847582::0::1::::<><><>0<>0<><>::
 icon.png::CompressedTexture2D/CompressedTexture2D::681813528332868524::1759847583::1759847804::1::::<><><>0<>0<>143c9e97e682e8299b8514b6f33f77d9<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
-menu.gd::GDScript/GDScript::8436894831665478078::1759847583::0::1::::<>CanvasLayer<><>0<>0<><>::
-menu.tscn::PackedScene::3786426535016194471::1759981047::0::1::::<><><>0<>0<><>::uid://gi6fhwlvc6by::::res://THSarabunNew Bold.ttf<>uid://dsg5optkryq6q::::res://menu.gd
+label.gd::GDScript/GDScript::1975593645361287907::1759980983::0::1::::<>Label<><>0<>0<><>::
 minamoji04.ttf::FontFile/FontFile::1863672463562703265::1759940340::1759940359::1::::<><><>0<>0<>8ded2669a17d7920feb2c10ec2affc69<>res://.godot/imported/minamoji04.ttf-ba3a25cf19a34fc2d5e22fac16e9eab9.fontdata::
-opening_scene.tscn::PackedScene::2952570417345996311::1759981047::0::1::::<><><>0<>0<><>::uid://3fu4jx45xdah::::res://opening_scene.gd<>uid://clw1h2f0t78wd::::res://assets/images/opening_picture.png<>uid://1s1obv8h6drl::::res://minamoji04.ttf
 README.md::TextFile/TextFile::-1::1759847582::0::1::::<><><>0<>0<><>::
-opening_scene.gd::GDScript::1976876148113054603::1759941712::0::1::::<>CanvasLayer<><>0<>0<><>::
-label.gd::GDScript::1975593645361287907::1759980983::0::1::::<>Label<><>0<>0<><>::
-story.gd::GDScript::4751570666207307859::1759977876::0::1::::<>RichTextLabel<><>0<>0<><>::
-story_scene.tscn::PackedScene::8684508105878544067::1759981047::0::1::::<><><>0<>0<><>::uid://u8nd3l7gsq00::::res://assets/images/story_game.png<>uid://b8xxw652qcul4::::res://story.gd<>uid://3e80d66c2gbr::::res://label.gd<>uid://gi6fhwlvc6by::::res://THSarabunNew Bold.ttf<>uid://b8wwcckioydxb::::res://sounds/Typing Sound Effect no copyright (1).mp3<>uid://dy3bl0ihfpe0a::::res://assets/horror_japanese_sound.mp3
-school_mesh.tscn::PackedScene::3709103811406270462::1759981047::0::1::::<><><>0<>0<><>::
+mob.tscn::PackedScene::5200925891700177348::1759995080::0::1::::<><><>0<>0<><>::uid://c5rygyf0eyjvh::::res://assets/enemy_model/momo_3d_model.glb
+school_mesh.tscn::PackedScene::3709103811406270462::1759992924::0::1::::<><><>0<>0<><>::
+story.gd::GDScript/GDScript::4751570666207307859::1759977876::0::1::::<>RichTextLabel<><>0<>0<><>::
 THSarabunNew Bold.ttf::FontFile/FontFile::439539641783072758::1759847582::1759847804::1::::<><><>0<>0<>cf0c96f2733382b45aa970f84ca12edb<>res://.godot/imported/THSarabunNew Bold.ttf-e5d290b1f66cfe80b2900ab6cbf8f582.fontdata::
 ::res://assets/::1759940193
 horror_japanese_sound.mp3::AudioStreamMP3/AudioStreamMP3::8901678561998988042::1759914412::1759940193::1::::<><><>0<>0<>d1092946f3c9e7e798cb1f6da09ead04<>res://.godot/imported/horror_japanese_sound.mp3-37a2017741a399a9f2370fb383f9a47a.mp3str::
@@ -24,10 +20,14 @@ momo_3d_model.glb::PackedScene/PackedScene::6915070290362625237::1759848813::175
 momo_3d_model_0.png::CompressedTexture2D/CompressedTexture2D::8428410376553148815::1759940193::1759940196::1::::<><><>0<>0<>b912eb4087e70f2c0da181156b2901f9<>res://.godot/imported/momo_3d_model_0.png-8de5d6edb05eb62e006d37ca2db36a8b.s3tc.ctex::
 momo_3d_model_1.png::CompressedTexture2D/CompressedTexture2D::1178196088369387966::1759940194::1759940194::1::::<><><>0<>0<>e7e3c11b94e485e7812045e18d9ee411<>res://.godot/imported/momo_3d_model_1.png-f3b6018222a34a7b773e451df51e3eb3.ctex::
 momo_3d_model_2.png::CompressedTexture2D/CompressedTexture2D::6900536378586110175::1759940194::1759940194::1::::<><><>0<>0<>13a185cdebdb077a5c21168d34ea9612<>res://.godot/imported/momo_3d_model_2.png-e72f7ef43f1c9edd6f5b774717a109b5.ctex::
-::res://assets/images/::1759940193
+::res://assets/images/::1759989560
+Circle.png::CompressedTexture2D/CompressedTexture2D::8757120794841847267::1759989450::1759989560::1::::<><><>0<>0<>abd85d60c1a56af9590d5a32484c12e0<>res://.godot/imported/Circle.png-1f5a33f4bc91c2dab1dfa0506c52f711.ctex::
 jumpscare.png::CompressedTexture2D/CompressedTexture2D::7905923147082139987::1759940123::1759940193::1::::<><><>0<>0<>b5ba9e9114e7ef38935d7e9b35ab5988<>res://.godot/imported/jumpscare.png-1cce98ae29cd91139ef0186b1c9c8f09.ctex::
+needle.png::CompressedTexture2D/CompressedTexture2D::3027217476046683417::1759989506::1759989560::1::::<><><>0<>0<>91693984800d49060354b4cffdd68507<>res://.godot/imported/needle.png-f81b3c428c110a7d4ac986bb58cbd801.ctex::
 opening_picture.png::CompressedTexture2D/CompressedTexture2D::5591927527380184323::1759940123::1759940193::1::::<><><>0<>0<>7ff677e093beaf73ae1701d530f3e0a4<>res://.godot/imported/opening_picture.png-c0a1f36beb2aa826672d1b9d3b748716.ctex::
 story_game.png::CompressedTexture2D/CompressedTexture2D::1472697506041630043::1759940123::1759940193::1::::<><><>0<>0<>df3cfec05964743aa061789c9ce945b4<>res://.godot/imported/story_game.png-ebbc5194643885c72561a2c87fc29f0e.ctex::
+Success_area.png::CompressedTexture2D/CompressedTexture2D::1037226341602260923::1759989482::1759989560::1::::<><><>0<>0<>aa8451415ddff5cb0d93f36a238ca209<>res://.godot/imported/Success_area.png-034618612083d51ca1e3303ec2bdca31.ctex::
+yan.png::CompressedTexture2D/CompressedTexture2D::2585413821339503008::1759988842::1759988845::1::::<><><>0<>0<>6d92e127351592bd2cecdbf82586cfaf<>res://.godot/imported/yan.png-12f1474607ad814c64884f267a87fbe0.ctex::
 ::res://docs/::1759847804
 index.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::1380516003664806898::1759847582::1759847804::1::::<><><>0<>0<>fcf12ccd87bc868c952c3a9e567dca0c<>res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex::
 index.icon.png::CompressedTexture2D/CompressedTexture2D::4697740393249729546::1759847582::1759847804::1::::<><><>0<>0<>050385218e6ad955e3882dcd4732d7a9<>res://.godot/imported/index.icon.png-b92c9a802ad4b78e247784454a6b506f.ctex::
@@ -43,17 +43,22 @@ map_Metal038_4K_Color.jpg::CompressedTexture2D/CompressedTexture2D::868157072958
 map_Plaster001_4K_Color.jpg::CompressedTexture2D/CompressedTexture2D::1338516078267374900::1759847806::1759847835::1::::<><><>0<>0<>a1cc0f3c60807d99a4e5619b6d45fda7<>res://.godot/imported/map_Plaster001_4K_Color.jpg-c3e8853a2b4cfd5f2bf660a93d72bc6e.s3tc.ctex::
 map_Wood051_4K_Color.jpg::CompressedTexture2D/CompressedTexture2D::7272046861098696012::1759847819::1759847836::1::::<><><>0<>0<>2dc13ce22872366f6ce533e41515e658<>res://.godot/imported/map_Wood051_4K_Color.jpg-2ea990dc3b704dd9ae852e21f866adb4.s3tc.ctex::
 map_WoodFloor035_4K_Color.jpg::CompressedTexture2D/CompressedTexture2D::4893217297043235726::1759847812::1759847836::1::::<><><>0<>0<>ee0f20b3ceb580cdbac5f8c1de0e2d89<>res://.godot/imported/map_WoodFloor035_4K_Color.jpg-d5ff1e509e96bcf6f71de917216a9a80.s3tc.ctex::
-::res://scenes/::1759981047
-House.tscn::PackedScene::4197539263102096535::1759981047::0::1::::<><><>0<>0<><>::uid://bs3ynr61an3iw::::res://school_mesh.tscn<>uid://du82lduwefmhr::::res://scenes/Player.tscn<>uid://bt7f5k7nxydj0::::res://menu.tscn
-Player.tscn::PackedScene::8632822581732845911::1759981047::0::1::::<><><>0<>0<><>::uid://ds2dgkhsypybu::::res://scripts/Player.gd<>res://models_and_materials/light.material<>res://House_env.tres<>uid://d1wvpajbhw1mx::::res://sounds/Flashlight Turn On Sound Effect.ogg<>uid://bw7dl3llo2ouq::::res://character-q.glb
-::res://scripts/::1759847583
-Player.gd::GDScript/GDScript::8478592838562888206::1759847583::0::1::::<>CharacterBody3D<><>0<>0<><>::
-::res://sounds/::1759981192
-city-night-crickets-24013.mp3::AudioStreamMP3::1761354237928177322::1759981192::1759981194::1::::<><><>0<>0<>79831e9f872a53d4b5dbcad268b9d236<>res://.godot/imported/city-night-crickets-24013.mp3-f6e152545e636402ab006e292fc73736.mp3str::
+::res://scenes/::1759992924
+House.tscn::PackedScene::4197539263102096535::1759992924::0::1::::<><><>0<>0<><>::uid://bs3ynr61an3iw::::res://school_mesh.tscn<>uid://du82lduwefmhr::::res://scenes/Player.tscn<>uid://bt7f5k7nxydj0::::res://scenes/menu.tscn
+menu.tscn::PackedScene::3786426535016194471::1759992924::0::1::::<><><>0<>0<><>::uid://dsg5optkryq6q::::res://scripts/menu.gd<>uid://gi6fhwlvc6by::::res://THSarabunNew Bold.ttf
+opening_scene.tscn::PackedScene::2952570417345996311::1759992924::0::1::::<><><>0<>0<><>::uid://3fu4jx45xdah::::res://scripts/opening_scene.gd<>uid://clw1h2f0t78wd::::res://assets/images/opening_picture.png<>uid://1s1obv8h6drl::::res://minamoji04.ttf<>uid://0dhinqtxd5cg::::res://sounds/city-night-crickets-24013.mp3
+PicklockMinigame.tscn::PackedScene::8548618761713958509::1759992924::0::1::::<><><>0<>0<><>::uid://docwlyyolllth::::res://scripts/picklock_minigame.gd<>uid://dw1aracl02wu2::::res://assets/images/Circle.png<>uid://o1o74bw4g8qx::::res://assets/images/Success_area.png<>uid://bjen3g7tq653r::::res://assets/images/needle.png
+Player.tscn::PackedScene::8632822581732845911::1759992924::0::1::::<><><>0<>0<><>::uid://ds2dgkhsypybu::::res://scripts/Player.gd<>res://models_and_materials/light.material<>res://House_env.tres<>uid://d1wvpajbhw1mx::::res://sounds/Flashlight Turn On Sound Effect.ogg<>uid://bw7dl3llo2ouq::::res://character-q.glb
+story_scene.tscn::PackedScene::8684508105878544067::1759992924::0::1::::<><><>0<>0<><>::uid://cf85plsinjcte::::res://scripts/story_scene.gd<>uid://u8nd3l7gsq00::::res://assets/images/story_game.png<>uid://gi6fhwlvc6by::::res://THSarabunNew Bold.ttf<>uid://3e80d66c2gbr::::res://label.gd<>uid://b8wwcckioydxb::::res://sounds/Typing Sound Effect no copyright (1).mp3<>uid://dy3bl0ihfpe0a::::res://assets/horror_japanese_sound.mp3
+::res://scripts/::1759992819
+menu.gd::GDScript/GDScript::8436894831665478078::1759983504::0::1::::<>CanvasLayer<><>0<>0<><>::
+opening_scene.gd::GDScript/GDScript::1976876148113054603::1759941712::0::1::::<>CanvasLayer<><>0<>0<><>::
+picklock_minigame.gd::GDScript::8147391333380642945::1759992819::0::1::::<>Control<><>0<>0<><>::
+Player.gd::GDScript/GDScript::8478592838562888206::1759983467::0::1::::<>CharacterBody3D<><>0<>0<><>::
+story_scene.gd::GDScript/GDScript::5193758954096447530::1759981398::0::1::::<>CanvasLayer<><>0<>0<><>::
+::res://sounds/::1759981697
+city-night-crickets-24013.mp3::AudioStreamMP3/AudioStreamMP3::1761354237928177322::1759981192::1759981194::1::::<><><>0<>0<>79831e9f872a53d4b5dbcad268b9d236<>res://.godot/imported/city-night-crickets-24013.mp3-f6e152545e636402ab006e292fc73736.mp3str::
 Flashlight Turn On Sound Effect.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::9030890153973054103::1759847583::1759847804::1::::<><><>0<>0<>98f506f4d3351921aef6986f66f8e973<>res://.godot/imported/Flashlight Turn On Sound Effect.ogg-38ba25cafb29f96eeae145e58705692c.oggvorbisstr::
-single-key-press-393908.mp3::AudioStreamMP3::7984973264869396489::1759979108::1759979110::1::::<><><>0<>0<>23ab1b4cc3de82ffeed8528bbd0545d3<>res://.godot/imported/single-key-press-393908.mp3-bd7573622cdded97b09f693a8fb69948.mp3str::
-typing no copyright.mp3::AudioStreamMP3::5858094668702958360::1759980136::1759980137::1::::<><><>0<>0<>36be8ca42cc622da55c5e6dbeb950830<>res://.godot/imported/typing no copyright.mp3-d28782262aff3d80fd2b4807c5593d98.mp3str::
-Typing Sound Effect no copyright (1).mp3::AudioStreamMP3::4749408300644040891::1759980307::1759980311::1::::<><><>0<>0<>0b1b620a01c728a63081f5b419071d3d<>res://.godot/imported/Typing Sound Effect no copyright (1).mp3-18ed5cdac138b3c6bc06aa644f2ca513.mp3str::
-Typing Sound Effect no copyright.mp3::AudioStreamMP3::3717771067858904017::1759979739::1759979741::1::::<><><>0<>0<>47327655767b392ad3b2825c46fcf2e8<>res://.godot/imported/Typing Sound Effect no copyright.mp3-253a8549102c8dcbedc53690d3cf873c.mp3str::
+Typing Sound Effect no copyright (1).mp3::AudioStreamMP3/AudioStreamMP3::4749408300644040891::1759980307::1759980311::1::::<><><>0<>0<>0b1b620a01c728a63081f5b419071d3d<>res://.godot/imported/Typing Sound Effect no copyright (1).mp3-18ed5cdac138b3c6bc06aa644f2ca513.mp3str::
 ::res://textures/::1759847804
 texture-q.png::CompressedTexture2D/CompressedTexture2D::3068083857259058308::1759847583::1759847804::1::::<><><>0<>0<>99bfb0206f1262aaed61d94874b5819f<>res://.godot/imported/texture-q.png-db5af90c7d7c774acde53eb5245bb167.s3tc.ctex::

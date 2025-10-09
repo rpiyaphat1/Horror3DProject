@@ -122,7 +122,7 @@ length = 0.544259
 [sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_o4126"]
 length = 0.499659
 
-[node name="Player" type="CharacterBody3D"]
+[node name="Player" type="CharacterBody3D" groups=["player"]]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.38717, 0)
 script = ExtResource("1")
 
@@ -170,9 +170,9 @@ light_energy = 16.0
 light_indirect_energy = 16.0
 light_volumetric_fog_energy = 3.08
 shadow_enabled = true
-spot_range = 27.6843
+spot_range = 50.0
 spot_attenuation = 2.37841
-spot_angle = 25.3109
+spot_angle = 60.0
 
 [node name="FlashlightSound" type="AudioStreamPlayer3D" parent="Flashlight/FlashLightMesh"]
 stream = ExtResource("5")
