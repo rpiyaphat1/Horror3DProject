@@ -1,18 +1,18 @@
 [gd_scene load_steps=5 format=3 uid="uid://bicinyle65tbj"]
 
-[ext_resource type="Script" uid="uid://3fu4jx45xdah" path="res://opening_scene.gd" id="1_n0ess"]
-[ext_resource type="Texture2D" uid="uid://clw1h2f0t78wd" path="res://assets/images/opening_picture.png" id="1_x7dql"]
-[ext_resource type="FontFile" uid="uid://1s1obv8h6drl" path="res://minamoji04.ttf" id="3_etrj5"]
-[ext_resource type="AudioStream" uid="uid://0dhinqtxd5cg" path="res://sounds/city-night-crickets-24013.mp3" id="4_n0ess"]
+[ext_resource type="Script" uid="uid://3fu4jx45xdah" path="res://scripts/opening_scene.gd" id="1_j2imu"]
+[ext_resource type="Texture2D" uid="uid://clw1h2f0t78wd" path="res://assets/images/opening_picture.png" id="2_6xt31"]
+[ext_resource type="FontFile" uid="uid://1s1obv8h6drl" path="res://minamoji04.ttf" id="3_vtxer"]
+[ext_resource type="AudioStream" uid="uid://0dhinqtxd5cg" path="res://sounds/city-night-crickets-24013.mp3" id="4_3cuo6"]
 
 [node name="opening_scene" type="CanvasLayer"]
-script = ExtResource("1_n0ess")
+script = ExtResource("1_j2imu")
 next_scene_path = "uid://dvy3tyd186owx"
 
 [node name="TextureRect" type="TextureRect" parent="."]
 offset_right = 1920.0
 offset_bottom = 1080.0
-texture = ExtResource("1_x7dql")
+texture = ExtResource("2_6xt31")
 
 [node name="StartButton" type="Button" parent="."]
 anchors_preset = 8
@@ -62,7 +62,7 @@ grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(2, 2)
 size_flags_horizontal = 4
-theme_override_fonts/font = ExtResource("3_etrj5")
+theme_override_fonts/font = ExtResource("3_vtxer")
 theme_override_font_sizes/font_size = 50
 text = "Birdgirl"
 horizontal_alignment = 1
@@ -82,11 +82,11 @@ grow_vertical = 2
 scale = Vector2(2, 2)
 size_flags_horizontal = 4
 theme_override_colors/font_color = Color(1, 0, 0, 1)
-theme_override_fonts/font = ExtResource("3_etrj5")
+theme_override_fonts/font = ExtResource("3_vtxer")
 theme_override_font_sizes/font_size = 120
 text = "鳥の女の子"
 horizontal_alignment = 1
 
 [node name="BG" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("4_n0ess")
+stream = ExtResource("4_3cuo6")
 autoplay = true

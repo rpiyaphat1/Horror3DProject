@@ -1,5 +1,11 @@
-res://scenes/House.tscn::d3d9953ff9b6530bdb2d3cae01cc2628::1759177697::res://.godot/exported/133200997/export-7ff9cc00768a966831835a64a89ee7a3-House.scn
-res://scenes/Player.tscn::f1846d231ea51a7a62a9a940da9bfeb3::1759177697::res://.godot/exported/133200997/export-e8220e74d1354b9e6b168b513689419c-Player.scn
-res://default_env.tres::834ea843c971504db7fd2996ae1a55b4::1759177697::res://.godot/exported/133200997/export-7cf3fd67ad9f55210191d77b582b8209-default_env.res
-res://House_env.tres::85577c517d2c20fed55780bf7b9195ac::1759159436::res://.godot/exported/133200997/export-4bd6d9cd05c684c94605b0c7bf934dcf-House_env.res
-res://menu.tscn::fe82d29f8001fc0276df0db1261b9fbc::1759177697::res://.godot/exported/133200997/export-a4951207776b25ee5c8b2b05c1463587-menu.scn
+res://scenes/House.tscn::f8bca02a966a71732134c1ba52738291::1760001562::res://.godot/exported/133200997/export-7ff9cc00768a966831835a64a89ee7a3-House.scn
+res://scenes/Player.tscn::40191259dbcf61ce7c864dcb85a6ac3d::1760001562::res://.godot/exported/133200997/export-e8220e74d1354b9e6b168b513689419c-Player.scn
+res://default_env.tres::834ea843c971504db7fd2996ae1a55b4::1760001562::res://.godot/exported/133200997/export-7cf3fd67ad9f55210191d77b582b8209-default_env.res
+res://House_env.tres::19a57726ffedf82b85af58e173bdefc9::1759847582::res://.godot/exported/133200997/export-4bd6d9cd05c684c94605b0c7bf934dcf-House_env.res
+res://scenes/menu.tscn::9de1f26a8f1f614feb94cf671c0f48c2::1760001562::res://.godot/exported/133200997/export-1ce5c86e8ca186dcaaeaa8726f1268db-menu.scn
+res://scenes/opening_scene.tscn::45145499e72b1fabae43d7ab5e314ef6::1760001562::res://.godot/exported/133200997/export-0805658178fe23c5d5803ce00d0c7441-opening_scene.scn
+res://scenes/PicklockMinigame.tscn::e7674ca1fc06cb320cca35969b1479a8::1760001562::res://.godot/exported/133200997/export-a421a1affd202bbefb0d7379fedb12ac-PicklockMinigame.scn
+res://scenes/story_scene.tscn::753719dec9c78711ef2883b664c3756d::1760001562::res://.godot/exported/133200997/export-b13b38c56ced0e8fe43384eee843fa31-story_scene.scn
+res://mob_model.tscn::e583f624e255c8f662872b15c223c0be::1760001562::res://.godot/exported/133200997/export-4511c0f6f1bf73be25017d60a8ac0f60-mob_model.scn
+res://mob.tscn::debc412046a696c293c647c3c8ad782e::1760001562::res://.godot/exported/133200997/export-5b94865898bd9b5cb44e426bf42f6f48-mob.scn
+res://school_mesh.tscn::2ec11bef4b433b345d926546343d9127::1760001562::res://.godot/exported/133200997/export-b91c854ac6358d667cc72bb8a32f28ed-school_mesh.scn

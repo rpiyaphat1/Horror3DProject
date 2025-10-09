@@ -1,0 +1,52 @@
+[gd_scene load_steps=7 format=3 uid="uid://dvy3tyd186owx"]
+
+[ext_resource type="Script" uid="uid://cf85plsinjcte" path="res://scripts/story_scene.gd" id="1_4ad6u"]
+[ext_resource type="Texture2D" uid="uid://u8nd3l7gsq00" path="res://assets/images/story_game.png" id="2_6h8fa"]
+[ext_resource type="FontFile" uid="uid://gi6fhwlvc6by" path="res://THSarabunNew Bold.ttf" id="3_811qm"]
+[ext_resource type="Script" uid="uid://3e80d66c2gbr" path="res://label.gd" id="4_qpnfr"]
+[ext_resource type="AudioStream" uid="uid://b8wwcckioydxb" path="res://sounds/Typing Sound Effect no copyright (1).mp3" id="5_k7hlw"]
+[ext_resource type="AudioStream" uid="uid://dy3bl0ihfpe0a" path="res://assets/horror_japanese_sound.mp3" id="6_vq87g"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource("1_4ad6u")
+next_scene_path = "uid://b02k4gkmkxyc2"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_6h8fa")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 129.0
+offset_top = 62.0
+offset_right = 1798.0
+offset_bottom = 568.0
+theme_override_fonts/font = ExtResource("3_811qm")
+theme_override_font_sizes/font_size = 50
+script = ExtResource("4_qpnfr")
+
+[node name="Click" type="AudioStreamPlayer" parent="Label"]
+stream = ExtResource("5_k7hlw")
+volume_db = -10.0
+
+[node name="BG" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_vq87g")
+autoplay = true
+
+[node name="SkipButton" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -283.0
+offset_top = 304.0
+offset_right = 263.0
+offset_bottom = 420.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 76
+text = "Skip
+"

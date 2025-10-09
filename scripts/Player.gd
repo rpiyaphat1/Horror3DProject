@@ -13,7 +13,7 @@ extends CharacterBody3D
 @onready var anim_player: AnimationPlayer    = body_model.get_node_or_null("AnimationPlayer")
 
 # ---------- Menu scene ----------
-@export var menu_scene: PackedScene = preload("res://menu.tscn")
+@export var menu_scene: PackedScene = preload("res://scenes/menu.tscn")
 var menu: CanvasLayer = null
 var _menu_open := false
 

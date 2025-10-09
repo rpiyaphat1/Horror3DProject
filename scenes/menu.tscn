@@ -1,14 +1,14 @@
 [gd_scene load_steps=4 format=3 uid="uid://bt7f5k7nxydj0"]
 
-[ext_resource type="FontFile" uid="uid://gi6fhwlvc6by" path="res://THSarabunNew Bold.ttf" id="1_lti8b"]
-[ext_resource type="Script" uid="uid://dsg5optkryq6q" path="res://menu.gd" id="1_ouk20"]
+[ext_resource type="Script" uid="uid://dsg5optkryq6q" path="res://scripts/menu.gd" id="1_vjb58"]
+[ext_resource type="FontFile" uid="uid://gi6fhwlvc6by" path="res://THSarabunNew Bold.ttf" id="2_con2f"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_ouk20"]
-font = ExtResource("1_lti8b")
+font = ExtResource("2_con2f")
 font_size = 60
 
 [node name="Menu" type="CanvasLayer"]
-script = ExtResource("1_ouk20")
+script = ExtResource("1_vjb58")
 
 [node name="ResumeButton" type="Button" parent="."]
 anchors_preset = 8
@@ -16,10 +16,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -273.0
-offset_top = -0.5
-offset_right = 273.0
-offset_bottom = 112.5
+offset_left = -275.0
+offset_top = -71.0
+offset_right = 271.0
+offset_bottom = 42.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
@@ -32,16 +32,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -273.0
-offset_top = 151.0
-offset_right = 273.0
-offset_bottom = 267.0
+offset_left = -279.0
+offset_top = 222.0
+offset_right = 267.0
+offset_bottom = 338.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 theme_override_font_sizes/font_size = 76
-text = "Quit
+text = "Quit game
 "
 
 [node name="GameName" type="Label" parent="."]
@@ -59,36 +59,23 @@ grow_vertical = 2
 scale = Vector2(2, 2)
 size_flags_horizontal = 4
 theme_override_font_sizes/font_size = 80
-text = "Darkroom (ค่อยคิดชื่อใหม่)"
+text = "Paused"
 label_settings = SubResource("LabelSettings_ouk20")
 horizontal_alignment = 1
 
-[node name="By" type="Label" parent="."]
-anchors_preset = 5
+[node name="Menu" type="Button" parent="."]
+anchors_preset = 8
 anchor_left = 0.5
+anchor_top = 0.5
 anchor_right = 0.5
-offset_left = -314.0
-offset_top = 314.0
-offset_right = 291.0
-offset_bottom = 393.0
+anchor_bottom = 0.5
+offset_left = -275.0
+offset_top = 76.0
+offset_right = 271.0
+offset_bottom = 189.0
 grow_horizontal = 2
+grow_vertical = 2
 size_flags_horizontal = 4
-theme_override_font_sizes/font_size = 40
-text = "By"
-label_settings = SubResource("LabelSettings_ouk20")
-horizontal_alignment = 1
-
-[node name="Name" type="Label" parent="."]
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-offset_left = -317.0
-offset_top = 377.0
-offset_right = 288.0
-offset_bottom = 456.0
-grow_horizontal = 2
-size_flags_horizontal = 4
-theme_override_font_sizes/font_size = 40
-text = "นายปิยภัทร รัตนรักษ์ 663380037-0"
-label_settings = SubResource("LabelSettings_ouk20")
-horizontal_alignment = 1
+theme_override_font_sizes/font_size = 76
+text = "Quit map
+"
