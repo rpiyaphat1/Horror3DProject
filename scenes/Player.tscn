@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=4 uid="uid://du82lduwefmhr"]
+[gd_scene load_steps=24 format=4 uid="uid://du82lduwefmhr"]
 
 [ext_resource type="Script" uid="uid://ds2dgkhsypybu" path="res://scripts/Player.gd" id="1"]
 [ext_resource type="Material" path="res://models_and_materials/light.material" id="3"]
@@ -98,8 +98,29 @@ _surfaces = [{
 "vertex_data": PackedByteArray("wdWAM2Mvj72Hzcs+L3lfPBJvjL2Hzcs+vi3bPCtJhL2Hzcs+WBkfPa4bbr2Hzcs+mH5KPY9+Sr2Hzcs+uhtuPUgZH72Hzcs+MEmEPaot27yHzcs+Fm+MPfJ4X7yHzcs+bC+PPQsRGbOHzcs+F2+MPaR4XzyHzcs+MEmEPYMt2zyHzcs+uhtuPToZHz2Hzcs+l35KPX5+Sj2Hzcs+VhkfPaQbbj2Hzcs+wy3bPCBJhD2Hzcs+FHlfPAhvjD2Hzcs+xzIrM1ovjz2Hzcs+snhfvAhvjD2Hzcs+hC3bvB9JhD2Hzcs+PxkfvZUbbj2Hzcs+gX5KvXZ+Sj2Hzcs+nxtuvTYZHz2Hzcs+IEmEvXQt2zyHzcs+Bm+MvYp4XzyHzcs+VC+PvbX6yrOHzcs+Am+MvVZ5X7yHzcs+GUmEvc8t27yHzcs+iRtuvV8ZH72Hzcs+YX5KvaJ+Sr2Hzcs+GBkfvcMbbr2Hzcs+SC3bvDJJhL2Hzcs+LXhfvBZvjL2Hzcs+////P1ovjz2p6nM6AKRXABrb9jb/OXo7Zc+0NAhvjD12xXQzEqZXAMG+4TO2OXM7Wbr1NR9JhD0Pug86I6tXADW+/z9vOV07D7rvRZUbbj1ZuglKM7RXAMG+HUwtOTo7dsWKTHZ+Sj1lz0pLQb9XABrbCEn0OAs7qeqLRTYZHz3///8/TM1XAOf0VTXFONI67e2NLXQt2zxo6bMnVd1XAOnmuyKiOJA6w+dgH4p4Xzzr6y0dWu5XAB70Bx2MOEk6//8bH7X6yrMe9PdiXABXAOvr0mKFOP85w+eeYFZ5X7zp5kNdWhJXAGjpTFiMOLY57e1yUs8t27zn9KpKVSNXAA==")
 }]
 
+[sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_70d11"]
+length = 0.578556
+
 [sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_qu4a1"]
-length = 0.196909
+length = 0.693584
+
+[sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_cw2d6"]
+length = 0.642412
+
+[sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_khinc"]
+length = 0.540735
+
+[sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_bruh7"]
+length = 0.610331
+
+[sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_6eyey"]
+length = 0.557395
+
+[sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_d3wef"]
+length = 0.544259
+
+[sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_o4126"]
+length = 0.499659
 
 [node name="Player" type="CharacterBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.38717, 0)
@@ -158,10 +179,34 @@ stream = ExtResource("5")
 volume_db = -25.0
 unit_size = 100.0
 
-[node name="staircollision" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 7.71983e-08, -0.768935, 0, 0.588697, 1.00834e-07, 0, -1.021, -0.386655)
+[node name="StairFront" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, -0.814842, 0)
+shape = SubResource("SeparationRayShape3D_70d11")
+
+[node name="StairFront2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 7.71983e-08, -0.768935, 0, 0.588697, 1.00834e-07, 0, -1.3907, -0.572721)
 shape = SubResource("SeparationRayShape3D_qu4a1")
 
-[node name="staircollision2" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 7.71983e-08, -0.768935, 0, 0.588697, 1.00834e-07, 0, -1.3907, -0.386655)
-shape = SubResource("SeparationRayShape3D_qu4a1")
+[node name="StairLeft1" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0.667273, -1.39871, 0)
+shape = SubResource("SeparationRayShape3D_cw2d6")
+
+[node name="StairLeft2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0.665273, -1.37045, 0)
+shape = SubResource("SeparationRayShape3D_khinc")
+
+[node name="StairRight1" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -0.654441, -1.39229, 0)
+shape = SubResource("SeparationRayShape3D_bruh7")
+
+[node name="StairRight2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1.31134e-07, -1, 0, 1, 1.31134e-07, -0.660857, -1.38587, 0)
+shape = SubResource("SeparationRayShape3D_6eyey")
+
+[node name="StairBack1" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.821259, 0)
+shape = SubResource("SeparationRayShape3D_d3wef")
+
+[node name="StairBack2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -0.000575944, -1, 0, 1, -0.000575944, 0, -1.39871, 0.532535)
+shape = SubResource("SeparationRayShape3D_o4126")
