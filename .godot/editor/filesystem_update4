@@ -3,3 +3,5 @@ res://scenes/House.tscn
 res://scenes/Player.tscn
 res://menu.tscn
 res://school_mesh.tscn
+res://scenes/door.tscn
+res://scripts/raycast.gd

@@ -1,4 +1,6 @@
-[gd_scene load_steps=21 format=3 uid="uid://bs3ynr61an3iw"]
+[gd_scene load_steps=22 format=3 uid="uid://bs3ynr61an3iw"]
+
+[ext_resource type="PackedScene" uid="uid://hywlv7mv6ako" path="res://scenes/door.tscn" id="1_bqa7w"]
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_8twys"]
 viewport_path = NodePath("Mirror/SubViewport")
@@ -2073,3 +2075,9 @@ shape = SubResource("BoxShape3D_bqa7w")
 [node name="CollisionShape3D3" type="CollisionShape3D" parent="Bathroomopen2"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.7811, 14.4036, -2.71743)
 shape = SubResource("BoxShape3D_b5si5")
+
+[node name="Door" parent="." instance=ExtResource("1_bqa7w")]
+transform = Transform3D(-3, 0, 0, 0, 2.4, -2.44784e-07, 0, 2.09815e-07, 2.8, -24.6317, 0.822504, -14.3658)
+
+[node name="Door2" parent="." instance=ExtResource("1_bqa7w")]
+transform = Transform3D(3, 0, 0, 0, 2.4, 0, 0, 0, 2.8, -25.0922, 0.80055, -28.2744)

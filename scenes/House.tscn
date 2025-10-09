@@ -20,7 +20,8 @@ transform = Transform3D(2.08819, 0, 0, 0, 1.83832, 0, 0, 0, 1.93743, 0.225193, 2
 [node name="ButtonRequirement" type="Label" parent="."]
 offset_right = 40.0
 offset_bottom = 23.0
-text = "Press 'F' for turn on/off flashlight
+text = "Press 'F' for toggle flashlight
+Press 'E' for interact
 Press 'ESC' to open menu"
 
 [node name="SchoolMesh" parent="." instance=ExtResource("3_r2usd")]

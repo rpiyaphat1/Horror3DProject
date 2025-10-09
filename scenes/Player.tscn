@@ -1,8 +1,9 @@
-[gd_scene load_steps=24 format=4 uid="uid://du82lduwefmhr"]
+[gd_scene load_steps=25 format=4 uid="uid://du82lduwefmhr"]
 
 [ext_resource type="Script" uid="uid://ds2dgkhsypybu" path="res://scripts/Player.gd" id="1"]
 [ext_resource type="Material" path="res://models_and_materials/light.material" id="3"]
 [ext_resource type="Environment" path="res://House_env.tres" id="4"]
+[ext_resource type="Script" uid="uid://bf0es4cls1h0s" path="res://scripts/raycast.gd" id="4_70d11"]
 [ext_resource type="AudioStream" uid="uid://d1wvpajbhw1mx" path="res://sounds/Flashlight Turn On Sound Effect.ogg" id="5"]
 [ext_resource type="PackedScene" uid="uid://bw7dl3llo2ouq" path="res://character-q.glb" id="7_cw2d6"]
 
@@ -156,6 +157,9 @@ anim_player = NodePath("../AnimationPlayer")
 parameters/blend_position = 0.0
 parameters/2/blend_position = 0
 
+[node name="RayCast3D" type="RayCast3D" parent="Head/HeadXRotation/Camera3D"]
+script = ExtResource("4_70d11")
+
 [node name="Flashlight" type="Node3D" parent="."]
 transform = Transform3D(0.999765, 0, 0.0216927, 0, 1, 0, -0.0216927, 0, 0.999765, -0.0435969, 1, 0)
 
@@ -167,12 +171,12 @@ mesh = SubResource("8")
 [node name="SpotLight3D" type="SpotLight3D" parent="Flashlight/FlashLightMesh"]
 transform = Transform3D(-0.999518, -0.000769855, 0.0310416, -0.000266402, 0.999869, 0.016219, -0.0310503, 0.016203, -0.999387, -0.0379944, 0.0035007, 0.317485)
 light_energy = 16.0
-light_indirect_energy = 16.0
+light_indirect_energy = 30.0
 light_volumetric_fog_energy = 3.08
 shadow_enabled = true
-spot_range = 27.6843
+spot_range = 50.0
 spot_attenuation = 2.37841
-spot_angle = 25.3109
+spot_angle = 60.0
 
 [node name="FlashlightSound" type="AudioStreamPlayer3D" parent="Flashlight/FlashLightMesh"]
 stream = ExtResource("5")
